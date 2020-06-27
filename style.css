@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f8f7;
+}
+form{
+    text-align: justify;
+    
+
+}
+input[type="text"] {
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    height: 2em;
+    font-size:1em;
+}
+label {
+    font-size: 2em;
+}
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+    border: none;
+
+}
