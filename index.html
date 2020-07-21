@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grade Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="landing">
-        <form id="myForm" name="myForm" onsubmit="return calculate()">
-            <label for="score">Score:</label>
-            <input type="text" name="score" id="score" ><br><br>
-            <label for="tScore">Total Score:</label>
-            <input type="text" name="tScore" id="tScore" ><br><br>
-            <div id="calc"></div>
-            <input type="submit" value="calculate">
-        </form>
+    <div id="content">
+        <label>Score:</label>
+        <input type="text" name="score" id="score" placeholder="score..."> <br>
+        <label>Total Score:</label>
+        <input type="text" name="Total" id="total" placeholder="Total..">
+
+        <h2 id="percent"></h2>
+
+        <button onclick="calculate()">Calculate</button>
     </div>
+    <footer>
+        &copy; Copyright 2020 - Designed By Okonu_Deborah
+    </footer><footer>
+        &copy; Copyright 2020 - Designed By Okonu_Deborah
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

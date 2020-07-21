@@ -1,10 +1,17 @@
 body {
-    background-color: #f8f8f7;
+    background-color: #053009;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15%;
 }
 form{
     text-align: justify;
     
 
+}
+#percent {
+    font-family: Arial, Helvetica, sans-serif;
 }
 input[type="text"] {
     color: black;
@@ -13,6 +20,7 @@ input[type="text"] {
     outline: none;
     height: 2em;
     font-size:1em;
+    margin: 10px;
 }
 label {
     font-size: 2em;
@@ -23,4 +31,30 @@ input[type="submit"] {
     font-size: 2em;
     border: none;
 
+}
+button {
+    font-size: 2em;
+    padding: 9px;
+    border: 2px solid white;
+}
+
+footer  {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(158, 150, 150, 0.171);
+    color: rgba(247, 241, 241, 0.719);
+    position: relative;
+    margin-top:  23vh;
+    bottom: -15px;
+    width: 100%;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 550px) {
+    button {
+        font-size: 1em;
+    }
+    label {
+        font-size: 20px;
+    }
 }
